@@ -28,3 +28,6 @@ Contraintes principales :
 1. `sql/cours_schema.sql`  → crée la BD **cours** et les tables  
 2. `sql/cours_seed.sql`    → insère les données minimales  
 3. `sql/cours_queries.sql` → lance les statistiques
+
+
+
