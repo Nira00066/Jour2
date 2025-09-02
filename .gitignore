@@ -1,1 +1,11 @@
+ 
+*.log
+*.tmp
+
+ 
+node_modules/
+dist/
+.env
+
+scripts/.env
 /node_modules
