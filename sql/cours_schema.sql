@@ -20,7 +20,7 @@ CREATE TABLE
     courses (
         id INT AUTO_INCREMENT PRIMARY KEY,
         title VARCHAR(200) NOT NULL,
-        category ENUM("Dev","Marketing","Photo","Design","Data") NOT NULL,
+        category ENUM('Dev','Marketing','Photo','Design','Data') NOT NULL,
         price DECIMAL(10, 2) NOT NULL DEFAULT 0.0,
         CONSTRAINT chk_courses_price CHECK (price >= 0)
     );
